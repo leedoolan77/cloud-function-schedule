@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function green() {
    printf "\e[32m%s\e[0m\n" "$@"
 }
@@ -26,6 +28,6 @@ function error_and_die {
 
 function stop_processing {
   # Exit on failure
-  bold "${1}"
+  yellow "${1}"
   exit 0
 }

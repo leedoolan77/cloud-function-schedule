@@ -1,0 +1,6 @@
+PROJECT_ID=add_this
+REGION=add_this
+IAM_ACCOUNT=cloud-invoker
+FUNCTION=dummy-cf
+FOLDER_ID=add_this_optional
+BILLING_ACCOUNT_ID=add_this_optional
