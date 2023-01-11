@@ -37,5 +37,5 @@ Script files have been created to help with the deploy, and should be run in the
 4. `scripts/function_create.sh` - To create your Cloud Function and give your IAM user invoke rights.
     - **IMPORTANT NOTE 1** the Cloud Function will be created using default settings. Change as required
     - **IMPORTANT NOTE 2** the IAM user may need additional permissions to use other resources. Add as required.
-5. `scripts/schedule_create.sh` - To create your Cloud Schedule for your Cloud Function.
-    - **IMPORTANT NOTE 1** the Cloud Schedule will be created using default settings. Change as required
+5. `scripts/schedule_create.sh` - To create your Cloud Schedules for your Cloud Function.
+    - **IMPORTANT NOTE 1** the Cloud Schedules will be created using default settings. Change as required

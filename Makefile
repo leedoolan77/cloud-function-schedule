@@ -22,5 +22,5 @@ iam_create: ## OPTIONAL to create your Cloud Function IAM invoke user
 function_create: ## To create your Cloud Function and give your IAM user invoke rights
 	@scripts/$@.sh
 
-schedule_create: ## To create your Cloud Schedule for your Cloud Function
+schedule_create: ## To create your Cloud Schedules for your Cloud Function
 	@scripts/$@.sh

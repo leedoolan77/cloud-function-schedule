@@ -13,7 +13,7 @@ gcloud --project=${PROJECT_ID} functions deploy ${FUNCTION} \
 --trigger-http --entry-point process --region ${REGION}  \
 --service-account ${IAM_ACCOUNT}@${PROJECT_ID}.iam.gserviceaccount.com \
 --set-env-vars TOPIC_PROJECT_ID=${PROJECT_ID} \
---memory 256MB --timeout 60s --clear-max-instances \
+--memory 128MB --timeout 60s --max-instances 5 \
 --runtime python38 --source "src/Cloud Function" --quiet
 
 gcloud --project=${PROJECT_ID} functions add-iam-policy-binding ${FUNCTION} \
